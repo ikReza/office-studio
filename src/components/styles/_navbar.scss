@@ -1,0 +1,27 @@
+.navbrand {
+  color: tomato;
+  font-size: 1.35rem;
+  letter-spacing: 0.1rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  &:hover {
+    color: #fed136;
+  }
+}
+
+.nav-toggle {
+  background-color: tomato;
+}
+
+.inactive {
+  color: #fff;
+  &:hover {
+    color: #fed136;
+  }
+}
+
+.active {
+  color: #fed136;
+  &:hover {
+    color: #fed136;
+  }
+}

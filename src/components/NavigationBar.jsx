@@ -12,6 +12,7 @@ import {
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   let location = window.location.href;
+  console.log(location);
 
   return (
     <Navbar fixed="top" expand="md" style={{ backgroundColor: "#233" }}>
