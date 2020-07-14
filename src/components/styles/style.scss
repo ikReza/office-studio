@@ -1,2 +1,21 @@
 @import "./navbar";
 @import "./welcome";
+@import "./services";
+
+.page-section {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  background-color: #fffff7;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin: 0 auto 1rem auto;
+}
+
+.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
