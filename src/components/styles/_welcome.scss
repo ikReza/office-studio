@@ -1,0 +1,31 @@
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImg {
+  height: 100vh;
+  filter: brightness(50%);
+}
+
+.cardText1 {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.cardText2 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cardBtn {
+  padding: 1.25rem 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #233;
+}
