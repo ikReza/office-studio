@@ -1,0 +1,32 @@
+.form-input {
+  margin-bottom: 1.38rem;
+}
+
+.contact-form-bg {
+  background-color: #212529;
+  background-image: url("/images/world.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-form {
+  padding: 1rem;
+}
+
+.contact-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  background-color: #233;
+  color: tomato;
+  &:hover {
+    color: #fed136;
+  }
+}

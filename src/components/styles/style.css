@@ -69,22 +69,16 @@
   text-transform: uppercase;
   font-weight: 700;
   background-color: #233;
+  color: tomato;
+}
+
+.cardBtn:hover {
+  color: #fed136;
 }
 
 .service-heading {
   margin: 1rem auto;
   font-size: 1.5rem;
-}
-
-.footer {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.fafooter {
-  color: #fff;
-  background-color: #343a40;
-  border-radius: 50%;
 }
 
 #portfolio .portfolio-item {
@@ -123,10 +117,6 @@
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link:hover {
-  cursor: pointer;
-}
-
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
@@ -135,6 +125,96 @@
   padding: 1.5rem;
   text-align: center;
   background-color: white;
+}
+
+.timeline-image {
+  width: 10rem;
+  height: 10rem;
+  padding: auto 1rem;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+}
+
+.timeline-image h4 {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+.fatime {
+  color: #fff;
+  background-color: #343a40;
+  border-radius: 50%;
+}
+
+.about-list {
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 480px) {
+  .timeline-image {
+    width: 6rem;
+    height: 6rem;
+  }
+  .timeline-image h4 {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.team-img {
+  height: 14rem;
+  width: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  margin-bottom: 1.38rem;
+}
+
+.contact-form-bg {
+  background-color: #212529;
+  background-image: url("/images/world.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-form {
+  padding: 1rem;
+}
+
+.contact-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  background-color: #233;
+  color: tomato;
+}
+
+.contact-button:hover {
+  color: #fed136;
+}
+
+.footer {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.fafooter {
+  color: #fff;
+  background-color: #343a40;
+  border-radius: 50%;
 }
 
 .page-section {

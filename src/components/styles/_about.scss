@@ -1,0 +1,37 @@
+.timeline-image {
+  width: 10rem;
+  height: 10rem;
+  padding: auto 1rem;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+  h4 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.fatime {
+  color: #fff;
+  background-color: #343a40;
+  border-radius: 50%;
+}
+
+.about-list {
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 480px) {
+  .timeline-image {
+    width: 6rem;
+    height: 6rem;
+    h4 {
+      font-size: 1rem;
+      line-height: 1rem;
+      margin-top: 1rem;
+    }
+  }
+}

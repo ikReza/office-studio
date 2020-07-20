@@ -28,4 +28,8 @@
   text-transform: uppercase;
   font-weight: 700;
   background-color: #233;
+  color: tomato;
+  &:hover {
+    color: #fed136;
+  }
 }
