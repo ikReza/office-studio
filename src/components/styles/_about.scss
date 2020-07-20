@@ -1,6 +1,6 @@
 .timeline-image {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   padding: auto 1rem;
   text-align: center;
   color: white;
@@ -26,8 +26,8 @@
 
 @media screen and (max-width: 480px) {
   .timeline-image {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     h4 {
       font-size: 1rem;
       line-height: 1rem;
